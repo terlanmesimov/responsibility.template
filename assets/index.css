@@ -243,7 +243,7 @@
 .subscribe_box button{
     display: block;
     width: 100%;
-    padding: 8px 16px;
+    padding: 15px 16px;
     background: #f44336;
     color: white;
     border: 0;
@@ -252,4 +252,36 @@
 .subscribe_box button:hover{
     color: black;
     background: #ccc;
+}
+@media only screen and (max-width: 1000px){
+    .content{
+        display: flex;
+        flex-direction: column;
+    }
+    .content_left,
+    .content_right{
+        width: 100%;
+    }
+}
+footer{
+    padding: 50px 32px;
+    background: #616161;
+    font-family: 'Open Sans' , sans-serif;
+}
+footer a{
+    padding: 12px 24px;
+    background: black;
+    font-size: 15px;
+    color: white;
+}
+footer a i{
+    margin-right: 10px;
+}
+footer a:hover{
+    color: black;
+    background: white;
+}
+footer p{
+    margin: 35px 0 0px;
+    color: white;
 }
