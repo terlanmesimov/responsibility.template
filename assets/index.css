@@ -151,5 +151,105 @@
     cursor: pointer;
 }
 .content_right{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
     padding: 16px;
+    font-family: 'Open Sans' , sans-serif;
+}
+.content_my_name{
+    background: black;
+}
+.content_my_name img{
+    width: 100%;
+}
+.content_my_name p{
+    color: white;
+    font-size: 15px;
+    padding: 15px 16px;
+}
+.content_right h4{
+    padding: 18px 16px;
+    font-family: 'Oswald' , sans-serif;
+    color: white;
+    font-size: 20px;
+    background: black;
+}
+.content_popular_posts img{
+    height: 50px;
+    width: 50px;
+    margin-right: 16px;
+}
+.content_popular_posts ul li{
+    display: flex;
+    align-items: center;
+    padding: 16px;
+    background: white;
+}
+.pop_posts_span{
+    display: flex;
+    flex-direction: column;
+}
+.advertise_area{
+    padding: 16px;
+    background: white;
+}
+.your_ad{
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ccc;
+}
+.tags_area{
+    padding: 16px;
+    background: white;
+}
+.tags_area span{
+    padding: 0 8px;
+    margin-bottom: 16px;
+    background: #f1f1f1;
+}
+.inspiration_images{
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    background: white;
+}
+.inspiration_images img{
+    width: 50%;
+}
+.image_one{
+    display: flex;
+}
+.social_area{
+    padding: 16px;
+    background: white;
+    font-size: 25px;
+}
+.subscribe_box{
+    background: white;
+    padding: 16px;
+}
+.subscribe_box p{
+    margin-bottom: 16px;
+}
+.subscribe_box input{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+}
+.subscribe_box button{
+    display: block;
+    width: 100%;
+    padding: 8px 16px;
+    background: #f44336;
+    color: white;
+    border: 0;
+    font-size: 15px;
+}   
+.subscribe_box button:hover{
+    color: black;
+    background: #ccc;
 }
